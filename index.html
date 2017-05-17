@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celsius-Fahrenheit Conversion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="celsius"></div>
+    <div id="bottom_celsius"></div>
+    <div id="top_celsius"></div>
+    <div class="form-group" id="celsius_group">
+        <div class="col-xs-2">
+            <label> Celsius </label>
+            <input id="celsius_input" class="input-sm form-control" onkeyup="celsiusToFahrenheit()">
+        </div>
+    </div>
+
+    <div id="fahrenheit"></div>
+    <div id="bottom_fahrenheit"></div>​
+    <div id="top_fahrenheit"></div>
+    <div class="form-group" id="fahrenheit_group">
+        <div class="col-xs-2">
+            <label> Fahrenheit </label>
+            <input id="fahrenheit_input" class="input-sm form-control" onkeyup="fahrenheitToCelsius()">
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        setup();
+    </script>
+</body>
+</html>

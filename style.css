@@ -1,0 +1,31 @@
+#celsius, #fahrenheit, #bottom_celsius, #bottom_fahrenheit, #top_celsius, #top_fahrenheit {
+    position: absolute;
+    width: 30px;
+    border: solid;
+    border-radius: 30px 30px;
+    text-indent: 40px;
+    font: 20px/400px 'Times New Roman';
+}
+
+#bottom_celsius, #bottom_fahrenheit {
+    z-index: 1;
+    overflow: hidden;
+}
+
+#top_celsius, #top_fahrenheit {
+    z-index: 2;
+}
+
+#celsius_group, #fahrenheit_group {
+    position: relative;
+}
+
+#celsius_group {
+    top: 500px;
+    left: 225px;
+}
+
+#fahrenheit_group {
+    top: 480px;
+    left: 660px;
+}
